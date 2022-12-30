@@ -1,0 +1,54 @@
+.head {
+  color: white;
+  margin-left: 20px;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 820px;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.avt {
+  display: flex;
+}
+
+.avatar {
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+}
+
+.img-name-cont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 120px;
+}
+
+.values-cont {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #ffffff;
+  width: 220px;
+}
+
+.usd-item {
+  list-style-type: none;
+  padding-right: 35px;
+  padding-left: 10px;
+  width: 100px;
+  text-align: end;
+}
+
+.euro-item {
+  list-style-type: none;
+  padding-right: 10px;
+  padding-left: 35px;
+  width: 100px;
+}
